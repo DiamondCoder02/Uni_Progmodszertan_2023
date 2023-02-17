@@ -44,6 +44,15 @@ public class Main {
 
         // challenge: write hello world 100 times without using a loop
         System.out.println("Hello World! ".repeat(100));
+        /*
+        Double String Float
+        int - Integer
+        char - Character
+
+        boxing - converting primitive to object
+        unboxing - converting object to primitive
+        autoboxing - converting primitive to object automatically
+         */
 
         // precedence of operators!!!
         // precedence of operators!!!
