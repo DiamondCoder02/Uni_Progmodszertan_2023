@@ -60,5 +60,18 @@ public class oop {
         System.out.println(miniCat2.getSex());
         System.out.println(miniCat2.getColor());
         System.out.println("-----------------");
+
+        // Nope
+        //cica1.CatHotelCheckIn(cica2);
+        //cica2.CatHotelCheckIn(cica3);
+        // Yes
+        Cat hotelCat = new Cat();
+        hotelCat.CatHotelCheckIn(cica1);
+
+        hotelCat.CatHotelCheckIn(new Cat("Loki"));
+        hotelCat.CatHotelCount();
+        hotelCat.CatHotelCheckOut(new Cat("Loki"));
+        hotelCat.CatHotelCount();
+        System.out.println("-----------------");
     }
 }

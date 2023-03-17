@@ -11,6 +11,8 @@ class Cat {
     private String breed;
     private String sex;
     private Color color;
+    //private static List<Cat> safePlace = new ArrayList<>();
+    private List<Cat> CatHotel = new ArrayList<>();
 
     public String getName() {
         return name;
@@ -107,5 +109,26 @@ class Cat {
 
         Cat newBorn = new Cat(newBornName, newBornAge, newBornBreed, newBornSex, newBornColor);
         return newBorn;
+    }
+
+    // CatHotel
+    public void CatHotelCheckIn(Cat cat){
+        CatHotel.add(cat);
+        System.out.println(cat.name + " is checked in.");
+    }
+    public void CatHotelCheckOut(Cat cat){
+        for(int i = 0; i < CatHotel.size(); i++){
+            if(CatHotel.get(i).name.equals(cat.name)){
+                CatHotel.remove(CatHotel.get(i));
+                System.out.println(cat.name + " is checked out.");
+            }
+        }
+    }
+
+    public void CatHotelCount(){
+        System.out.println("Currently in hotel:");
+        for(Cat cat : CatHotel){
+            System.out.println(cat.name);
+        }
     }
 }
