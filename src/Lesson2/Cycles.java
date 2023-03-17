@@ -48,14 +48,13 @@ public class Cycles {
 
 outer:  for(String day : days) {
             System.out.println(day);
-inner:      for(String time : times) {
+        for(String time : times) {
                 if(day.equals("Wednesday")) break outer;
                 System.out.println("  "+time);
             }
         }
         System.out.println("-----------------");
 
-        int[] numbers = {1,2,3,4};
         int[] numbers2 = new int [10];
 
         numbers2[0] = 4;
@@ -63,13 +62,7 @@ inner:      for(String time : times) {
         System.out.println(Arrays.toString(numbers2));
 
         int[][] numbers3 = {{1,2,3},{4,5}};
-        int[][] numbers4 = new int[3][4];
         numbers3[0][2] = 43;
-
-        int[][] numbers5 = new int[2][];
-        int[] data1 = new int[3];
-        int[] data2 = new int[2];
-        int[] data3 = new int[5];
         System.out.println("-----------------");
 
         int[][][] moreNumbers = {

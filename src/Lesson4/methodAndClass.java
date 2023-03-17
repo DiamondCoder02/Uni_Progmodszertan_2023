@@ -8,16 +8,16 @@ import java.util.Scanner;
 public class methodAndClass {
     public static void main(String[] args) {
         out.println("----------------- Exercise 1 -----------------");
-        // Polindrome();
+        Polindrome();
 
         out.println("----------------- Exercise 2 -----------------");
-        // exerciseTwo();
+        exerciseTwo();
 
         out.println("----------------- Exercise 3 -----------------");
-        //out.println(powerThree(10));
+        out.println(powerThree(10));
 
         out.println("----------------- Exercise 4 -----------------");
-        // fromTenToThree();
+        fromTenToThree();
 
         out.println("----------------- Exercise 5 -----------------");
         fromBaseToBase();
