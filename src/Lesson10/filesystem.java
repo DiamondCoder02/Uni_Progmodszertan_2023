@@ -88,7 +88,7 @@ public class filesystem {
 		}
 
 		// PrintWriter
-		try (PrintWriter pw = new PrintWriter("proba.txt")) {
+		try (PrintWriter pw = new PrintWriter("sorok.txt")) {
 			for (int i = 1; i < 21; i++) {
 				pw.println(i + ". line");
 			}
@@ -97,7 +97,7 @@ public class filesystem {
 		}
 
 		// BufferedReader
-		try (BufferedReader br = new BufferedReader(new FileReader("proba.txt"))) {
+		try (BufferedReader br = new BufferedReader(new FileReader("sorok.txt"))) {
 			String line;
 			while((line = br.readLine()) != null){
 				System.out.println(line);

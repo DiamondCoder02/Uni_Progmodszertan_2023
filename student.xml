@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- this is a comment -->
+<!-- Special char: 
+&		&amp;
+<		&lt; 
+>		&gt;
+""		&quot;
+'' 		&apos;
+You cannot use these normally -->
+<students university="PTE">
+	<student nationality="magyar">
+		<name>John &amp; Doe</name>
+		<major>prog.info</major>
+		<year>1</year>
+	</student>
+	<student>
+		<name>John Fuck</name>
+		<major>prog.info</major>
+		<year>3</year>
+	</student>
+	<student>
+		<name>John UwU</name>
+		<major>gazd.info</major>
+		<year>2</year>
+	</student>
+	<student>
+		<name>OwO Doe</name>
+		<major>prog.info</major>
+		<year>1</year>
+	</student>
+	<student>
+		<name>Asdasd Doe</name>
+		<major>gazd.info</major>
+		<year>1</year>
+	</student>
+	<student>
+		<name>AZTAKURVA Szép a űúőóüöé</name>
+		<major>gazd.info</major>
+		<year>3</year>
+	</student>
+</students>
