@@ -8,7 +8,8 @@
 '' 		&apos;
 You cannot use these normally -->
 <students university="PTE">
-	<student nationality="magyar">
+	<student id="1", nationality="magyar">
+		<id>1</id>
 		<name>John &amp; Doe</name>
 		<major>prog.info</major>
 		<year>1</year>
