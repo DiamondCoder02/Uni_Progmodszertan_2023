@@ -1,4 +1,4 @@
-package lesson12.first_xml;
+package Lesson12.first_xml;
 
 import java.io.File;
 import java.io.IOException;
@@ -83,6 +83,7 @@ public class Student {
 					String name = e.getElementsByTagName("name").item(0).getTextContent().trim();
 					String major = e.getElementsByTagName("major").item(0).getTextContent().trim();
 					int year = Integer.parseInt(e.getElementsByTagName("year").item(0).getTextContent().trim());
+					students.add(new Student(name, major, year));
 				}
 			}
 		} catch (ParserConfigurationException e) {

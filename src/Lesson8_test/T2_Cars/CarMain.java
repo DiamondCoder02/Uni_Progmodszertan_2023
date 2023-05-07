@@ -23,10 +23,10 @@ public class CarMain {
             option = input.nextInt();
             switch (option) {
                 case 1:
-                    CarRental.addCar(carRental.cars);
+                    CarRental.addCar(carRental.cars, input);
                     break;
                 case 2:
-                    CarRental.removeCar(carRental.cars);
+                    CarRental.removeCar(carRental.cars, input);
                     break;
                 case 3:
                     CarRental.listAllCars(carRental.cars);
@@ -45,5 +45,6 @@ public class CarMain {
                     break;
             }
         }
+        input.close();
     }
 }

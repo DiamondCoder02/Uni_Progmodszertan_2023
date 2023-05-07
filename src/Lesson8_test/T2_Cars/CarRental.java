@@ -24,9 +24,8 @@ class CarRental {
         return cars;
     }
 
-    public static List<Car> removeCar(List<Car> cars) {
+    public static List<Car> removeCar(List<Car> cars, Scanner input) {
         out.println("----------------------------removeCar method----------------------------");
-        Scanner input = new Scanner(System.in);
         out.println("Please enter the id of the car you want to remove: ");
         int id = input.nextInt();
         for (Car car : cars) {
@@ -42,9 +41,8 @@ class CarRental {
         return cars;
     }
 
-    public static List<Car> addCar(List<Car> cars) {
+    public static List<Car> addCar(List<Car> cars, Scanner input) {
         out.println("----------------------------addCar method----------------------------");
-        Scanner input = new Scanner(System.in);
         // Must get an id so every car has a unique id
         out.println("Please enter the id of the car: ");
         int id = input.nextInt();

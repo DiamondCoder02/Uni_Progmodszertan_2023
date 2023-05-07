@@ -1,9 +1,9 @@
-package lesson12;
+package Lesson12;
 
 import java.io.File;
 import java.util.List;
 
-import lesson12.first_xml.Student;
+import Lesson12.first_xml.Student;
 
 public class mainThing {
     public static void main(String[] args) {

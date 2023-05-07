@@ -7,11 +7,9 @@ public abstract class mammal {
         System.out.println("A mammal reproduces by giving birth to live young.");
     }
 
-    public Mammal(String species){
+    public void Mammal(String species){
         this.species = species;
     }
-
-    public Mammal(){}
 
     public String getSpecies() {
         return species;

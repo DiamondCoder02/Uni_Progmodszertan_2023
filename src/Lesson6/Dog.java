@@ -58,7 +58,7 @@ public class Dog extends mammal implements Animal{
     public Dog(){}
 
     public Dog(String species, String name, boolean cute){
-        super(species);
+        super();
         this.name = name;
         this.isCute = cute;
     }

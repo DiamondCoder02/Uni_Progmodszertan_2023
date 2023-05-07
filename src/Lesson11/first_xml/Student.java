@@ -5,12 +5,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.text.html.parser.Element;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
@@ -70,6 +70,7 @@ public class Student {
 					String name = e.getElementsByTagName("name").item(0).getTextContent().trim();
 					String major = e.getElementsByTagName("major").item(0).getTextContent().trim();
 					int year = Integer.parseInt(e.getElementsByTagName("year").item(0).getTextContent().trim());
+					students.add(new Student(name, major, year));
 				}
 			}
 		} catch (ParserConfigurationException e) {
@@ -79,5 +80,6 @@ public class Student {
 		} catch (SAXException e) {
 			throw new RuntimeException(e);
 		}
+		return students;
 	}
 }

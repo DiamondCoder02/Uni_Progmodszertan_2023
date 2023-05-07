@@ -45,5 +45,6 @@ public class Main {
             System.out.println("InputMismatchException went wrong");
             System.out.println(e);
         }
+        scanner.close();
     }
 }
