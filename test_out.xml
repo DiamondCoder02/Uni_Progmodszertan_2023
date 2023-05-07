@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- https://github.com/DiamondPRO02/nsfw-game-manager --><sfwgames>
+    	
+    <source>
+        		
+        <game id="1">
+            			
+            <name>UwU</name>
+            			
+            <developer>OwO</developer>
+            			
+            <played_version>420</played_version>
+            			
+            <dateof_lastupate>2023-05-07</dateof_lastupate>
+             
+		
+        </game>
+        		
+        <game id="999999">
+            			
+            <name>test</name>
+            			
+            <developer>testing</developer>
+            			
+            <played_version>testedtest</played_version>
+            			
+            <dateof_lastupate>6969-69-69</dateof_lastupate>
+             
+		
+        </game>
+        		
+        <game id="74965">
+            			
+            <name>!Ω Factorial Omega: My Dystopian Robot Girlfriend</name>
+            			
+            <developer>Incontinent Cell</developer>
+            			
+            <played_version>v0.61 beta</played_version>
+            			
+            <dateof_lastupate>2021-05-11</dateof_lastupate>
+            		
+        </game>
+        		
+        <game id="19095">
+            			
+            <name>2037 - Almost ready Inc.</name>
+            			
+            <developer>MadAlice</developer>
+            			
+            <played_version>v0.9.6</played_version>
+            			
+            <dateof_lastupate>2020-06-22</dateof_lastupate>
+             
+		
+        </game>
+        		
+        <game id="1556">
+            			
+            <name>Adventure High</name>
+            			
+            <developer>Changer</developer>
+            			
+            <played_version>v0.65</played_version>
+            			
+            <dateof_lastupate>2022-01-14</dateof_lastupate>
+             
+		
+        </game>
+        	
+    </source>
+    
+</sfwgames>
