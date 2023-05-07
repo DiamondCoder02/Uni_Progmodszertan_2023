@@ -5,13 +5,13 @@
         		
         <game id="1">
             			
-            <name>UwU</name>
+            <name>na</name>
             			
-            <developer>OwO</developer>
+            <developer>na</developer>
             			
-            <played_version>420</played_version>
+            <played_version>na</played_version>
             			
-            <dateof_lastupate>2023-05-07</dateof_lastupate>
+            <dateof_lastupate>0000-00-00</dateof_lastupate>
              
 		
         </game>
@@ -67,6 +67,18 @@
 		
         </game>
         	
+        <game id="321">
+            <name>Nice Name</name>
+            <developer>Myself</developer>
+            <played_version>v0.1.2 Beta Something</played_version>
+            <dateof_lastupate>2023-05-07</dateof_lastupate>
+        </game>
+        <game id="13">
+            <name>asd</name>
+            <developer>cxv</developer>
+            <played_version>fsdfs</played_version>
+            <dateof_lastupate>2023-05-07</dateof_lastupate>
+        </game>
     </source>
     
 </sfwgames>

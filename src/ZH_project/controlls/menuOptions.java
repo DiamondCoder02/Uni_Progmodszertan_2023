@@ -62,11 +62,11 @@ public class menuOptions {
 	public static void listAllGamesControl(Document dom) {
 		try {
 			NodeList source = dom.getElementsByTagName("source");
-			topThings();
 			for (int i = 0; i < source.getLength(); i++) {
 				Node sourceNode = source.item(i);
 				if (sourceNode.getNodeType() == Node.ELEMENT_NODE) {
 					NodeList game = sourceNode.getChildNodes();
+					topThings();
 					for (int j = 0; j < game.getLength(); j++) {
 						Node gameNode = game.item(j);
 						if (gameNode.getNodeType() == Node.ELEMENT_NODE) {
@@ -238,7 +238,7 @@ public class menuOptions {
 									String newname = keyboardScan.nextLine();
 									textEasy(false, true, false, "Enter new developer name: ");
 									String newdeveloper = keyboardScan.nextLine();
-									textEasy(true, true, false, "Enter new played version: ");
+									textEasy(false, true, false, "Enter new played version: ");
 									String newplayed_version = keyboardScan.nextLine();
 									// set date as current date
 									String currentTimeAsOfRunning = LocalDate.now().toString();
@@ -247,12 +247,12 @@ public class menuOptions {
 									topThings();
 									System.out.println("|"+ids+"| "+olddeveloper+"| "+oldplayed_version+"|");
 									System.out.println("| "+olddateof_lastupate+" | "+oldname+"|");
-									System.out.println("-/\\-old-----new-\\/-------------------------------------------------");
+									System.out.println("---/\\-old-----new-\\/-------------------------------------------------");
 									System.out.println("|"+ids+"| "+newdeveloper+"| "+newplayed_version+"|");
 									System.out.println("| "+newdateof_lastupate+" | "+newname+"|");
 									System.out.println("---------------------------------------------------------------------");
 
-									textEasy(false, true, false, "Do you want to update this game? (y/n)");
+									textEasy(false, false, false, "Do you want to update this game? (y/n)");
 									String answer2 = keyboardScan.nextLine();
 									if (answer2.equals("n")) {break;}
 									e.getElementsByTagName("name").item(0).setTextContent(newname);
